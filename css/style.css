@@ -124,7 +124,7 @@ nav h2 {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 20px;
 
 }
 
@@ -147,9 +147,37 @@ nav h2 {
     margin: 22px 0;
 }
 
+.vison_box button {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    padding: 5PX 10PX;
+    margin: 10px 0;
+}
+
+.pillar_indiv p{
+    padding: 10px 0;
+}
 .vison_indiv {
     padding: 10px;
     border-radius: 16px;
+}
+
+.vison_one button {
+    background: rgb(84, 144, 245);
+}
+
+.vison_two button {
+    background: rgb(9, 161, 92);
+}
+
+.vison_three button {
+    background: rgb(255, 194, 57);
 }
 
 .vison_one {
@@ -176,6 +204,16 @@ nav h2 {
     background-position-x: left;
 }
 
+.vison_column h6{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
 .opinion h2 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -185,6 +223,17 @@ nav h2 {
     letter-spacing: 0%;
     text-align: left;
     padding: 15px 0;
+}
+
+
+.opinion table thead {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .opinion table {
@@ -204,6 +253,17 @@ td {
     text-align: left;
 }
 
+.opinion table td {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
 .opinion {
     margin: 80px 0;
 }
@@ -215,17 +275,81 @@ td {
 .opinion table select {
     padding: 6px 12px;
     font-size: 16px;
-
     box-sizing: border-box;
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     background: rgb(198, 228, 214);
 }
 
+.opinion option {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-align: center;
+}
+.recent h2{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
 .news_section {
     display: flex;
     /* justify-content: space-between; */
     /* align-items: center; */
+    margin-top: 48px;
+}
+
+.news_content{
+    padding-left: 32px;
+}
+
+.news_content span{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.news_content_middle{
+    padding-left: 0;
+    padding-right: 32px;
+}
+.news_content h5{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 10px;
+}
+
+.news_content button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 5PX 10PX;
+margin-top: 10px;
+}
+
+.news_img img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
 }
 
 .donate_section {
