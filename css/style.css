@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    padding: 0 160px 0 160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px 0;
+}
+
+nav h2 {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(14, 14, 14);
+}
+
+.btn-primary {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+    padding: 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 10px;
+    color: rgb(0, 106, 80);
+}
+
+.head_banner {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 40px 59px;
+}
+
+.head_content {
+    width: 50%;
+    height: 201px;
+}
+
+.head_content h5 {
+    font-size: 24px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+}
+
+.head_content h1 {
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.head_content button {
+    width: 270px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+.head_img {
+    width: 50%;
+}
+
+.head_img img {
+    width: 474.03px;
+    height: 315px;
+}
+
+.pillars {
+    margin-top: 80px;
+}
+
+.common_head {
+    font-size: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.common_pera {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.content_head {
+    font-family: "Fira Sans", serif;
+    Font-weight: 700;
+    Font-size: 20px;
+
+}
+
+.pillars_content {
+    display: flex;
+    gap: 24px;
+}
+
+.pillar_indiv {
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.pillar_indiv img {
+    width: 62px;
+    height: 62px;
+}
+
+.vison {
+    margin-top: 80px;
+}
+
+/* .vison_pera{
+    margin: 32px ;
+} */
+
+.vison_box {
+    display: flex;
+    gap: 24px;
+    margin: 22px 0;
+}
+
+.vison_indiv {
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.vison_one {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vison_two {
+    background: rgb(198, 228, 214);
+}
+
+.vison_three {
+    background: rgb(247, 235, 207);
+}
+
+.vison_column {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 10px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    background: url(../Images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.opinion table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+.opinion table th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+
+    /* box-sizing: border-box;
+
+background: rgb(198, 228, 214); */
+}
+
+.opinion{
+    margin: 80px 0;
+}
+
+.opinion table th {
+    background: rgb(198, 228, 214);
+}
+
+.opinion table select {
+    padding: 6px 12px;
+    font-size: 16px;
+
+    box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+}
+
+.news_section {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.donate_section {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.donate_section input {
+    width: 695px;
+    height: 52px;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin: 32px 0;
+}
+
+
+.donate_section h5 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate_section p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate_amount {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.donate_amount h1 {
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.donate_amount span h1 {
+    background: rgb(198, 228, 214);
+}
+
+.donate_section button {
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 151px;
+    height: 56px;
+    text-align: center;
+}
+
+.subscribe {
+    /* width: 1029px;
+    height: 395px; */
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    align-items: center;
+    padding: 165px 0;
+    margin-top: 80px;
+}
+
+.subscribe h2 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.subscribe p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 622px;
+    height: 48px;
+    text-align: center;
+    padding: 10px 0;
+    padding-left: 210px;
+}
+
+.subscribe input {
+    padding: 10px 70px;
+    border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.subscribe label {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 9px 27px;
+}
+
+.foot {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.foot h2 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+}
+
+
+.foot_img img {
+    width: 24px;
+    height: 24px;
+    padding: 35px 5px 0 5px;
+}
