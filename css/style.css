@@ -176,6 +176,17 @@ nav h2 {
     background-position-x: left;
 }
 
+.opinion h2 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 0;
+}
+
 .opinion table {
     width: 100%;
     border-collapse: collapse;
@@ -186,16 +197,14 @@ nav h2 {
 
 .opinion table th,
 td {
-    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
     padding: 12px;
     text-align: left;
-
-    /* box-sizing: border-box;
-
-background: rgb(198, 228, 214); */
 }
 
-.opinion{
+.opinion {
     margin: 80px 0;
 }
 
@@ -208,9 +217,9 @@ background: rgb(198, 228, 214); */
     font-size: 16px;
 
     box-sizing: border-box;
-border: 1px solid rgb(14, 14, 14);
-border-radius: 4px;
-background: rgb(198, 228, 214);
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
 }
 
 .news_section {
