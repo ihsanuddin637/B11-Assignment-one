@@ -34,7 +34,7 @@ nav h2 {
     color: rgb(0, 106, 80);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: #ffffff;
     background-color: rgb(0, 106, 80);
 }
@@ -84,7 +84,7 @@ nav h2 {
     color: rgb(0, 106, 80);
 }
 
-.head_content button:hover{
+.head_content button:hover {
     color: #ffffff;
     background-color: rgb(0, 106, 80);
     /* transition: .15s; */
@@ -160,7 +160,7 @@ nav h2 {
 
 .vison_box button {
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -171,13 +171,14 @@ nav h2 {
     margin: 10px 0;
 }
 
-.vison_box button:hover{
+.vison_box button:hover {
     background: yellowgreen;
 }
 
-.pillar_indiv p{
+.pillar_indiv p {
     padding: 10px 0;
 }
+
 .vison_indiv {
     padding: 10px;
     border-radius: 16px;
@@ -219,19 +220,19 @@ nav h2 {
     background-position-x: left;
 }
 
-.vison_column h6{
+.vison_column h6 {
     color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .opinion h2 {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -243,7 +244,7 @@ text-align: left;
 
 .opinion table thead {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -270,7 +271,7 @@ td {
 
 .opinion table td {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -298,7 +299,7 @@ td {
 
 .opinion option {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -306,15 +307,17 @@ td {
     text-align: left;
     text-align: center;
 }
-.recent h2{
+
+.recent h2 {
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
 }
+
 .news_section {
     display: flex;
     /* justify-content: space-between; */
@@ -322,50 +325,51 @@ text-align: left;
     margin-top: 48px;
 }
 
-.news_content{
+.news_content {
     padding-left: 32px;
 }
 
-.news_content span{
+.news_content span {
     display: flex;
     gap: 20px;
     padding: 10px 0;
 }
 
-.news_content_middle{
+.news_content_middle {
     padding-left: 0;
     padding-right: 32px;
 }
-.news_content h5{
+
+.news_content h5 {
     color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
-padding-bottom: 10px;
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
-.news_content button{
+.news_content button {
     color: black;
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
-border-radius: 8px;
-padding: 5PX 10PX;
-margin-top: 10px;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    padding: 5PX 10PX;
+    margin-top: 10px;
 }
 
-.news_content button:hover{
+.news_content button:hover {
     background: rgb(0, 106, 80);
     color: #ffffff;
 }
 
-.news_img img{
+.news_img img {
     width: 408px;
     height: 306px;
     border-radius: 24px;
@@ -445,7 +449,7 @@ margin-top: 10px;
     text-align: center;
 }
 
-.donate_section button:hover{
+.donate_section button:hover {
     background: rgb(0, 106, 80);
     color: #ffffff;
 }
@@ -493,7 +497,7 @@ margin-top: 10px;
 
 .subscribe label {
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
@@ -502,6 +506,11 @@ margin-top: 10px;
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
     padding: 9px 27px;
+}
+
+.subscribe label:hover {
+    background: rgb(144, 172, 94);
+
 }
 
 .foot {
