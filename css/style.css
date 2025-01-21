@@ -34,6 +34,11 @@ nav h2 {
     color: rgb(0, 106, 80);
 }
 
+.btn-primary:hover{
+    color: #ffffff;
+    background-color: rgb(0, 106, 80);
+}
+
 .head_banner {
     display: flex;
     align-items: center;
@@ -62,7 +67,7 @@ nav h2 {
 }
 
 .head_content button {
-    width: 270px;
+    /* width: 270px; */
     height: 56px;
     display: flex;
     flex-direction: row;
@@ -70,13 +75,19 @@ nav h2 {
     align-items: center;
     gap: 48;
     padding: 17px 34px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     border-radius: 8px;
-    background: rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+}
+
+.head_content button:hover{
+    color: #ffffff;
+    background-color: rgb(0, 106, 80);
+    /* transition: .15s; */
 }
 
 .head_img {
@@ -158,6 +169,10 @@ nav h2 {
     border-radius: 8px;
     padding: 5PX 10PX;
     margin: 10px 0;
+}
+
+.vison_box button:hover{
+    background: yellowgreen;
 }
 
 .pillar_indiv p{
@@ -333,7 +348,7 @@ padding-bottom: 10px;
 }
 
 .news_content button{
-    color: rgb(255, 255, 255);
+    color: black;
 font-family: Fira Sans;
 font-size: 18px;
 font-weight: 600;
@@ -341,9 +356,13 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
 border-radius: 8px;
-background: rgb(0, 106, 80);
 padding: 5PX 10PX;
 margin-top: 10px;
+}
+
+.news_content button:hover{
+    background: rgb(0, 106, 80);
+    color: #ffffff;
 }
 
 .news_img img{
@@ -358,7 +377,7 @@ margin-top: 10px;
 }
 
 .donate_section input {
-    width: 695px;
+    width: 100%;
     height: 52px;
     box-sizing: border-box;
     /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
@@ -406,12 +425,12 @@ margin-top: 10px;
     padding-top: 20px;
 }
 
-.donate_amount span h1 {
+.donate_amount h1:hover {
     background: rgb(198, 228, 214);
 }
 
 .donate_section button {
-    color: rgb(255, 255, 255);
+    color: black;
     font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 600;
@@ -421,10 +440,14 @@ margin-top: 10px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
-    background: rgb(0, 106, 80);
     width: 151px;
     height: 56px;
     text-align: center;
+}
+
+.donate_section button:hover{
+    background: rgb(0, 106, 80);
+    color: #ffffff;
 }
 
 .subscribe {
@@ -463,9 +486,8 @@ margin-top: 10px;
 }
 
 .subscribe input {
-    padding: 10px 70px;
+    padding: 10px 100px;
     border-radius: 8px 0px 0px 8px;
-
     background: rgb(255, 255, 255);
 }
 
